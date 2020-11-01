@@ -1,2 +1,3 @@
 # personal-ts-demo
-测试
+# 1、TypeScript基本数据类型
+   boolen、
