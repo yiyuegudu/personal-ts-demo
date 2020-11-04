@@ -1,8 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/basicdatatype">Basicdatatype</router-link>
+    <router-link to="/basicdatatype">基本数据类型</router-link> |
+    <router-link to="/functionDemo">函数</router-link> |  
+    <router-link to="/tsClass">类</router-link>
   </div>
   <router-view />
 </template>

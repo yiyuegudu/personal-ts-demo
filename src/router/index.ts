@@ -15,10 +15,20 @@ const routes: RouteRecordRaw[] = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
+  // {
+  //   path: '/basicdatatype',
+  //   name: 'Basicdatatype',
+  //   component: () => import('@/views/Basicdatatype.vue'),
+  // },
   {
-    path: '/basicdatatype',
-    name: 'Basicdatatype',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Basicdatatype.vue'),
+    path: '/functionDemo',
+    name: 'FunctionDemo',
+    component: () => import('@/views/FunctionDemo.vue'),
+  },
+  {
+    path: '/tsClass',
+    name: 'TsClass',
+    component: () => import('@/views/TsClass.vue'),
   },
 ];
 
